@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="txt_error">
+        <item name="android:textSize">20sp</item>
+        <item name="color">#333333</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="txt_medium">
+        <item name="android:textSize">20sp</item>
+        <item name="color">#333333</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>

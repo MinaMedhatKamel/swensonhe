@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ln_item"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/flag"></ImageView>
+
+    <TextView
+        android:id="@+id/txt_currency_name"
+        style="@style/txt_medium"
+        android:layout_width="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ERU"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txt_currency_value"
+        style="@style/txt_medium"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="14"
+        />
+</LinearLayout>
